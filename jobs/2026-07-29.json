@@ -1,0 +1,15 @@
+{
+  "alphasift_enabled": false,
+  "candidates": [
+    "600519",
+    "300750",
+    "688981"
+  ],
+  "date": "2026-07-29",
+  "kept_after_st_filter": 300,
+  "max_daily_analysis": 5,
+  "pool_run_id": "2026-07-29|csi300_20260727",
+  "pool_size": 300,
+  "reason": "alphasift_disabled_use_validated_baseline_set",
+  "snapshot_version": "csi300_20260727"
+}
