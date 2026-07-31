@@ -9,6 +9,7 @@
   "job_id": "coalition-2026-07-31-f7d724572243d466",
   "kept_after_st_filter": 0,
   "late_run": true,
+  "late_run_caveat": "blocked_reason 是本次11:52补跑期间的产物，不代表08:00本应发生的结果：alphasift_rules.score_frozen_pool 内部会拉取AlphaSift的实时快照价格，跟market_rank的T-1收盘价做0.5%容差交叉校验；08:00盘前该实时价通常等于昨日收盘价，校验应能通过，但本次在盘中(11:52，A股仍在交易)补跑，实时价已经偏离昨日收盘，触发了该守卫。这不是一次真实的双源数据冲突，是补跑时机本身造成的假阳性；已知限制：本系统当前没有能在盘中安全补跑AlphaSift臂的模式，下次应在开盘前（09:15前）或收盘后使用当天口径重跑。",
   "late_run_reason": "cloud部署遗漏同步依赖文件(orchestrator/llm_experiment.py缺失、config.py与cloud_arbiter.py为旧版)，导致原定08:00任务导入阶段即失败；修复并按cron同工作目录验证导入通过后，于本次手动补跑代码扫描与飞书通知。AI深度分析(DSA)本次不执行。",
   "max_daily_analysis": 3,
   "pool_run_id": "2026-07-31|csi300_20260727",
