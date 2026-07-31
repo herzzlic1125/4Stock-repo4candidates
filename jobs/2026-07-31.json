@@ -1,0 +1,22 @@
+{
+  "alphasift_enabled": false,
+  "blocked_reason": "600000: AlphaSift/market close conflict (9.390 vs 9.710)",
+  "candidate_details": [],
+  "candidates": [],
+  "date": "2026-07-31",
+  "executed_at": "2026-07-31T11:52:13+08:00",
+  "input_sha256": "f7d724572243d4662d92c385c269d8626bda01af676cf991b6fea6e023cdf65d",
+  "job_id": "coalition-2026-07-31-f7d724572243d466",
+  "kept_after_st_filter": 0,
+  "late_run": true,
+  "late_run_reason": "cloud部署遗漏同步依赖文件(orchestrator/llm_experiment.py缺失、config.py与cloud_arbiter.py为旧版)，导致原定08:00任务导入阶段即失败；修复并按cron同工作目录验证导入通过后，于本次手动补跑代码扫描与飞书通知。AI深度分析(DSA)本次不执行。",
+  "max_daily_analysis": 3,
+  "pool_run_id": "2026-07-31|csi300_20260727",
+  "pool_size": 300,
+  "reason": "hybrid_market_alphasift_v1_blocked",
+  "rule_version": "hybrid_market_alphasift_v1",
+  "scheduled_for": "2026-07-31T08:00:00+08:00",
+  "schema_version": 1,
+  "selection_status": "blocked",
+  "snapshot_version": "csi300_20260727"
+}
