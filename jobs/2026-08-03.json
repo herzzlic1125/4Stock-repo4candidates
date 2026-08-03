@@ -1,0 +1,18 @@
+{
+  "alphasift_enabled": false,
+  "blocked_reason": "000301: 腾讯/新浪收盘冲突（11.770 vs 11.900）",
+  "candidate_details": [],
+  "candidates": [],
+  "date": "2026-08-03",
+  "input_sha256": "5a9b9c85908be6da8b1f5d2576f06d1dd89abc07206a4edbf57f35871251fad1",
+  "job_id": "coalition-2026-08-03-5a9b9c85908be6da",
+  "kept_after_st_filter": 0,
+  "max_daily_analysis": 3,
+  "pool_run_id": "2026-08-03|csi300_20260727",
+  "pool_size": 300,
+  "reason": "hybrid_market_alphasift_v1_blocked",
+  "rule_version": "hybrid_market_alphasift_v1",
+  "schema_version": 1,
+  "selection_status": "blocked",
+  "snapshot_version": "csi300_20260727"
+}
